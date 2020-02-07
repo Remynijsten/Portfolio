@@ -1,0 +1,57 @@
+.photo {
+  width: 80vw;
+  height: 50vh;
+  transition: 1s ease-in;
+  opacity: 0;
+  display: block;
+  margin-bottom: 60vh;
+  margin-left: 10vw;
+}
+.photo img {
+  width: 80vw;
+  height: 40vh;
+  margin-bottom: 3vh;
+}
+.photo p {
+  margin-top: 5vh;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  float: none;
+  font-size: 1vw;
+}
+.photo p span {
+  font-size: 2vw;
+}
+
+@media only screen and (max-width: 320px) {
+  .photo {
+    width: 80vw;
+    height: 50vh;
+    transition: 1s ease-in;
+    opacity: 0;
+    display: block;
+    margin-bottom: 60vh;
+    margin-left: 10vw;
+  }
+  .photo img {
+    width: 80vw;
+    height: 40vh;
+    margin-bottom: 3vh;
+  }
+  .photo p {
+    margin-top: 5vh;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    float: none;
+    font-size: 2vw;
+  }
+  .photo p span {
+    font-size: 3vw;
+  }
+}
+
+/*# sourceMappingURL=photo.css.map */

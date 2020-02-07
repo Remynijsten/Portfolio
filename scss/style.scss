@@ -1,0 +1,16 @@
+*{
+	margin:0;
+}
+.container{
+    margin: -6vh auto;
+		z-index: -1;
+	padding: 0;
+	.slideFOTO{
+		width: 100%;
+		height: 45vh;
+	}			
+}
+nav{
+	z-index: 1;
+	opacity: 0.5;
+}
